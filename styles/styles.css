@@ -1,6 +1,6 @@
 body {
     color: #fff;
-    background-color: black;
+    background-color: #1a1919;
     margin: 0;
     font-size: 14px;
     font-family: "Poppins", sans-serif;
@@ -19,4 +19,21 @@ p {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+}
+
+.header {
+    background-color: black;
+}
+
+.nav-link {
+    color: aliceblue;
+    text-decoration: none;
+    margin: 0 20px;
 }
