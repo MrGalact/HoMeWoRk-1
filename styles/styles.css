@@ -49,7 +49,7 @@ p {
 }
 
 .BLOCK_1 {
-    background: url(/img/backgraund.png);
+    background: url(img/backgraund.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
