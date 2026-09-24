@@ -87,12 +87,20 @@ p {
 
 .BLOCK_2_card {
     position: relative;
+    margin: auto;
+}
 
+.BLOCK_2_cards {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+    gap: 15px 0;
 }
 
 .BLOCK_2_card_inner {
     position: absolute;
-    bottom: 25px;
+    bottom: 45px;
     left: 15px;
     width: 500px;
 
@@ -105,9 +113,40 @@ p {
     line-height: 42px;
 }
 
+.BLOCK_2_card_title {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.BLOCK_2_card_text {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #c0c0c0;
+    margin-bottom: 26px;
+}
+
 .BLOCK_2_text {
     text-align: center;
     font-size: 23px;
     line-height: 30px;
     color: #a6a6a6;
+}
+
+.BLOCK_2_link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 15px 20px;
+}
+
+.BLOCK_2_link:hover {
+    color: black;
+    background-color: #fff;
+    border-radius: 10px;
 }
